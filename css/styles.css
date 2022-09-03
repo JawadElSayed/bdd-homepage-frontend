@@ -12,6 +12,7 @@ img {
 
 body{
     background-color: #f5f5f5;
+    font-family: 'PT Sans', sans-serif; 
 }
 
 /* general */
@@ -32,8 +33,8 @@ body{
 /* hero */
 
 .hero{
-    background: url(../images/website-slideshow-1-.jpeg);
-    filter:brightness(75%) contrast(85%) saturate(90%);
+    background: linear-gradient(#00000033, #ffffff33), url(../images/website-slideshow-1-.jpeg);
+    /* filter:brightness(75%) contrast(85%) saturate(90%); */
     font-family: 'PT Sans', sans-serif; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,7 +102,6 @@ body{
 
 .services-boxs {
     display: flex;
-    /* height: 55vh ; */
 }
 
 .services-boxs > div {
@@ -124,13 +124,12 @@ body{
 .services-boxs > div h2 {
     font-size: 22px;
     font-family: 'PT Sans', sans-serif;
-    margin-bottom: 10px
-    
+    margin-bottom: 10px 
 }
+
 .services-boxs > div p {
     font-size: 18px;
-    font-family: 'PT Sans', sans-serif; 
-    
+    font-family: 'PT Sans', sans-serif;    
 }
 
 /* video section */
@@ -139,7 +138,7 @@ body{
     background: url(../images/bddgal6.jpeg);
     text-align: center;
     justify-content: center;
-    padding: 55px 0;
+    padding: 60px 0;
 }
 
 .video-section > h1 {
@@ -150,3 +149,89 @@ body{
 }
 
 /* join bdd section */
+
+.join-bdd {
+    padding: 48px 0;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.join-bdd > h1 {
+    font-family: 'PT Sans', sans-serif; 
+    font-size: 30px;
+    color: #212121;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.join-in {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.join-image {
+    /* width: 100%; */
+    align-self: flex-start;
+}
+
+.join-image > img {
+    width: 100%;
+}
+
+.join-parts {
+    display: flex;
+    /* justify-content: space-between ; */
+    padding: 0 16px;
+}
+
+.join-parts > div {
+    background-color: #ffffff;
+    margin-right: 15px;
+    text-align: left;
+    width: 25%;
+    padding: 48px;
+    border: none;
+    border-radius: 10px;
+}
+
+.join-parts > div h2 {
+    font-size: 22px;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.join-parts > div ul {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif; 
+    padding-bottom: 50px;
+}
+
+.join-parts > div button {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.mobile-apps {
+    text-align: right;
+    margin-top: 24px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.mobile-apps > h3 {
+    margin-bottom: 15px;
+}
+
+.app-icons {
+    float: right;
+    width: 13%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.app-icons > img {
+    width: 100%;
+    margin-left: 10px;
+}
+
