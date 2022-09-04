@@ -303,8 +303,6 @@ body{
 .slider {
     display: flex;
     margin-bottom: 30px;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .slider > div {
@@ -312,7 +310,6 @@ body{
     background-color: #ffffff;
     margin-right: 30px;
     text-align: center;
-    /* height: 35vw; */
 }
 
 .slider-img {
@@ -342,4 +339,68 @@ body{
     margin: 16px 0;
 }
 
+/* academy section */
+
+.academy-section {
+    background: linear-gradient(#00000080,#00000080) , url(../images/2017-05-10.jpeg);
+    background-repeat: no-repeat;
+    padding: 30px 7vw 50px 7vw; 
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.academy {
+    display: flex;
+    align-items: center;
+}
+
+.academy > div {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.academy > div:first-child{
+    width: 40%;
+    margin-left: 0;
+}
+
+.academy-logo {
+    text-align: left;
+    font-size: 18.5px;
+}
+
+.academy-logo > div {
+    height: 50%;
+}
+
+.academy-logo > div img {
+    width: 20%;
+    padding-bottom: 20px;
+}
+
+.three-parts {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 15pxs;
+    margin-bottom: 15px;
+}
+
+.three-parts > div {
+    width: 33%;
+    padding: 0 15px;
+}
+
+.three-parts > div  h2{
+    font-size: 20px;
+}
+
+.three-parts > div  img{
+    width: 50%;
+}
+
+.three-parts > div  h2{
+    padding: 15px 0;
+}
 
